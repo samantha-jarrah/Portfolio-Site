@@ -1,0 +1,191 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+:root {
+  background-color: rgba(217, 217, 217, 1);
+}
+body {
+  /* background-image: url(images/meadow.jpg); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+}
+
+/* .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(247, 183, 51, 0.85);
+  z-index: -1;
+} */
+
+/* .yellow-background {
+  background-color: rgba(247, 183, 51, 0.85);
+} */
+
+.yellow-background {
+  background-color:rgba(247, 183, 51, 1);
+  opacity: 1;
+  background-image: radial-gradient(white 0.5px, rgba(247, 183, 51, 0.85) 0.5px);
+  background-size: 10px 10px;
+}
+
+
+body, html {
+    border: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+figcaption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+}
+
+nav {
+  background: rgba(217, 217, 217, 1);
+  /* width: 600px; */
+  margin-bottom: -26px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+a {
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px 10px 1px 10px;
+  color:black;
+}
+.menu {
+  display:flex;
+  gap:1.5em;
+  font-size: 18px;
+}
+.menu li:hover {
+  background-color: rgba(252, 74, 26, 1);
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.menu li {
+  padding: 4px 14px;
+}
+.logo {
+  font-size: 22px;
+}
+
+
+.about-me-text {
+  background-color: rgba(74, 189, 172, 1);
+  position: center;
+  /* margin-top: 35px; */
+  margin-left: 55px;
+  margin-right: 55px;
+  border-radius: 25px;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 8px 8px 5px black;
+}
+
+.email-text {
+  text-align: center;
+  font-size: 24px;
+}
+
+.center-about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  max-width:fit-content;
+}
+
+.header {
+  font-family: "Barlow", sans-serif;
+  font-size: 46px;
+  /* text-shadow: 4px 4px 4px #aaa; */
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-top: 32px;
+}
+
+
+.projects-page {
+  background-color: rgba(217, 217, 217, 1);
+  margin: 0%;
+  margin-top: -27px;
+  margin-bottom: -27px;
+}
+
+/* .project-example img {
+  border: 12px solid rgba(252, 74, 26, 1);
+  box-shadow: 8px 8px 5px black;
+  max-width: 50%;
+} */
+
+.gallery {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.gallery figure {
+  width: 350px;
+  margin: 1%;
+  padding-bottom: 4px;
+  border: 12px solid rgba(252, 74, 26, 1);
+  background-color: rgba(217, 217, 217, 1);
+  box-shadow: 8px 8px 5px black;
+}
+
+.gallery img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background-color:rgba(74, 189, 172, 1);
+  color:black;
+  margin-top: 5px;
+  border: 1px solid rgba(74, 189, 172, 1);
+}
+
+.project-example:hover {
+  transform: scale(1.1);
+}
