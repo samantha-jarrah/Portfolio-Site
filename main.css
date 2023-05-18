@@ -33,6 +33,10 @@ body {
   background-size: 10px 10px;
 }
 
+.yellow-background h2 {
+  padding: 7px;
+}
+
 
 body, html {
     border: 0;
@@ -103,6 +107,14 @@ li {
   font-size: 22px;
 }
 
+.center-about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 200px; */
+  max-width:fit-content;
+  padding-bottom: 3%;
+}
 
 .about-me-text {
   background-color: rgba(74, 189, 172, 1);
@@ -111,9 +123,10 @@ li {
   margin-left: 55px;
   margin-right: 55px;
   border-radius: 25px;
-  padding: 15px 0;
+  padding: 15px 8px;
   text-align: center;
   box-shadow: 8px 8px 5px black;
+  font-size: 110%;
 }
 
 .email-text {
@@ -121,13 +134,6 @@ li {
   font-size: 24px;
 }
 
-.center-about-me {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  max-width:fit-content;
-}
 
 .header {
   font-family: "Barlow", sans-serif;
@@ -135,8 +141,16 @@ li {
   /* text-shadow: 4px 4px 4px #aaa; */
   font-weight: 400;
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
   padding-top: 32px;
+}
+
+.header h1 {
+  display: inline-flex;
+}
+
+.header img {
+  width: 150px;
 }
 
 
@@ -144,7 +158,7 @@ li {
   background-color: rgba(217, 217, 217, 1);
   margin: 0%;
   margin-top: -27px;
-  margin-bottom: -27px;
+  /* margin-bottom: -17px; */
 }
 
 /* .project-example img {
@@ -189,3 +203,83 @@ button {
 .project-example:hover {
   transform: scale(1.1);
 }
+
+  /*  ----- Form ----- */
+input, textarea, select {
+    font-family:inherit;
+}
+textarea {
+  width: 40%;
+  padding: 2px;
+  margin: 2px 2px 2px 0px;
+  font-size: 120%;
+}
+  fieldset {
+    /* background-color: var(--off-white); */
+    border-style: double;
+    border-width: 4px;
+    border-color: black;
+    margin:auto;
+    background-color: rgb(245, 245, 245, .85);
+    /* margin-bottom: 2%; */
+    padding: 1% 3% 3%;
+    width: 40%;
+  }
+    legend {
+      font-family: 'Montserrat', sans-serif;      
+      padding: 6px;
+      font-size: 130%;
+      border: 1.5px solid black;
+      border-radius: 18px;
+      background-color:rgb(245, 245, 245, .85);
+    }
+  label {
+    display: block;
+    margin-top: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+
+  }
+    button {
+      width: 7em;
+      height: 2em;
+      font-size: 100%;
+      font-family: 'Montserrat', sans-serif;
+    }
+    input {
+      padding: 8px;
+      font-size: 110%;
+      background-color: rgba(247, 183, 51, 0.35);
+    }
+
+    :focus {
+      background-color: rgba(217, 217, 217, 1);
+    }
+
+    ::placeholder {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    :required {
+      border: solid red ;
+    }
+
+    input:valid {
+      border: solid 1px black;
+
+    }
+
+    /* input:invalid {
+      border: 2px solid red;
+
+    } */
+
+    label.required:after {
+      content:" *";
+      color:red;
+  }
+
+  .copyright {
+    text-align: center;
+    padding-bottom: 12px;
+  }
