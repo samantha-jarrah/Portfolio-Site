@@ -121,13 +121,15 @@ li {
   background-color: rgba(74, 189, 172, 1);
   position: center;
   /* margin-top: 35px; */
-  margin-left: 55px;
-  margin-right: 55px;
+  margin-left: 65px;
+  margin-right: 65px;
   border-radius: 25px;
-  padding: 15px 8px;
+  padding: 15px 20px;
   text-align: center;
   box-shadow: 8px 8px 5px black;
-  font-size: 110%;
+  font-size: 115%;
+  line-height: 1.4;
+  font-weight: 500;
 }
 
 .email-text {
