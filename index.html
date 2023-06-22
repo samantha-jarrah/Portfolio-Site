@@ -1,142 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Samantha Jarrah</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <!-- bootstrap link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <link rel="icon" href="sj_favicon.ico" type="image/x-icon">
-    <script src='main.js'></script>
+   <script src='main.js'></script>
 </head>
 <body>
-    <div class="overlay"></div>
-
-    <nav class="navbar" id="top">
-        <!-- Logo -->
-        <div class="logo">SJ</div>
-
-        <!-- Navigation menu -->
-        <ul class="nav-links">
-            <div class="menu">
-                <li><a href="#top">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+<!-- Heading -->
+<section>
+    <div class="container my-5 yellow-background rounded-3">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Samantha Jarrah</h1>
+            <p class="lead">I am an aspiring software engineer currently pursuing my second bachelor's degree in computer science at Oregon State University. 
+                While my previous career as a middle school band director allowed me to foster creativity and inspire young minds, I have discovered 
+                a deep passion for technology and programming. Transitioning into the field of software engineering has been an exciting and 
+                rewarding journey for me, as I enjoy the logical thinking and problem-solving aspects it entails. My experience in education has 
+                honed my communication and leadership skills, which I believe will be invaluable in a collaborative software development environment. 
+                I am eager to combine my musical background with my newfound technical expertise to create innovative and user-friendly software 
+                solutions. I am committed to expanding my knowledge and skills in programming languages, algorithms, and software 
+                development methodologies to build a successful career in the ever-evolving field of technology.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <button type="button" class="btn orange btn-lg px-4 me-md-2 fw-bold">Projects</button>
+              <button type="button" class="btn btn-outline-dark btn-lg px-4">Skills/Education</button>
+              <button type="button" class="btn btn-outline-dark btn-lg px-4">Contact</button>
             </div>
-        </ul>
-    </nav>
-
-    <div class="yellow-background">
-    <header>
-        <h1 class="header">Samantha Jarrah<img src="images/circlePortraitSmall.png"></h1>
-    </header>
-
-    <div class="center-about-me">
-        <p class="about-me-text">
-            I am an aspiring software engineer currently pursuing my second bachelor's degree in computer science at Oregon State University. 
-            While my previous career as a middle school band director allowed me to foster creativity and inspire young minds, I have discovered 
-            a deep passion for technology and programming. Transitioning into the field of software engineering has been an exciting and 
-            rewarding journey for me, as I enjoy the logical thinking and problem-solving aspects it entails. My experience in education has 
-            honed my communication and leadership skills, which I believe will be invaluable in a collaborative software development environment. 
-            I am eager to combine my musical background with my newfound technical expertise to create innovative and user-friendly software 
-            solutions. I am committed to expanding my knowledge and skills in programming languages, algorithms, and software 
-            development methodologies to build a successful career in the ever-evolving field of technology.
-        </p>
-    </div>
-    </div>
-    
-    <div class="projects-page">
-    <section id="projects"><h2>Projects</h2></section>
-        <article class="gallery">
-
-        <figure class="project-example">
-            <img
-            src="images/space-invaders-game-pygame-resized.png"
-            alt="Screenshot of Space Invaders Type Game Built Using Pygame"/>
-            <figcaption>Space Invaders Type Game Built Using Pygame</figcaption>
-            <button onclick="location.href='https://github.com/samantha-jarrah/Space_Invaders'" type="button">Code Repo</button>
-        </figure>
-
-        <figure class="project-example">
-            <img 
-                src="images/rock-paper-scissors-game-resized.png"
-                alt="Screenshot of rock paper scissors console game" />
-                <figcaption>Rock Paper Scissors Console Game Written in Python</figcaption>
-                <button onclick="location.href='https://github.com/samantha-jarrah/rock_paper_scissors'" type="button">Code Repo</button>
-        </figure>
-
-        <figure class="project-example">
-            <img 
-                src="images/vocabulary-worksheet-generator-cropped.png"
-                alt="Screenshot of vocabulary worksheet generator project" />
-                <figcaption>Vocabulary Worksheet Generator - OpenAI API</figcaption>
-                <button onclick="location.href='https://github.com/samantha-jarrah/Hackathon-Spring-2023'" type="button">Code Repo</button>
-        </figure>
-
-        <figure class="project-example">
-            <img
-            src="images/checkers-console-game-resized.png"
-            alt="Screenshot of Checkers Console Game Written in Python"/>
-            <figcaption>Checkers Console<br>Game</figcaption>
-            <button onclick="location.href='https://github.com/samantha-jarrah/Checkers-Console-Game-Python'" type="button">Code Repo</button>
-        </figure>
-
-        <figure class="project-example">
-            <img
-            src="images/mental-health-instrumentalists-vs-noninstrumentalists-resized.png"
-            alt="Screenshot of Graph comparing self reported mental health conditions of instrumentalists versus non-instrumentalists"/>
-            <figcaption>Self-Reported Mental Health Conditions: Instrumentalists</figcaption>
-            <button onclick="location.href='https://github.com/samantha-jarrah/chum_bucket_supreme'" type="button">Code Repo</button>
-
-        </figure>
-
-        </article>
-    </div>
-
-
-    <div class="yellow-background">
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class="icons">
-        <a href="https://github.com/samantha-jarrah"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
-        <a href="https://www.linkedin.com/in/samantha-jarrah-43a653234/"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
+              <img class="rounded-lg-3" src="./images/circlePortrait.png" alt="" width="620">
+          </div>
         </div>
-        <!-- <p class="email-text">
-            <a href="mailto:samantha.jarrah2@gmail.com">samantha.jarrah2@gmail.com</a>
-        </p> -->
-        <form method="post" action="https://forms.un-static.com/forms/b36acc1952fa7b50b0d6d09dd33acb463ecb3084">
-            <fieldset>
-                <legend>Please your information and a message below.</legend>
-                <label for="firstName" class="required">First Name</label>
-                <input type="text" name="firstName" id="firstName" required placeholder="First Name" autofocus />
+      </div>
+</section>
 
-                <label for="lastName" class="required">First Name</label>
-                <input type="text" name="lastName" id="lastName" required placeholder="Last Name" />
-
-                <label for="email" class="required">Email</label>
-                    <input type="email" 
-                    name="email" id="email" 
-                    size="30" maxlength="100" 
-                    required 
-                    pattern="[^ @]+@[^ @]+.[a-z]+"
-                    placeholder="example@host.com" />
-                
-
-                <label for="message">Please leave your message here</label>
-                <textarea name="message" id="message" placeholder="message"></textarea>
-
-                <label for="submit"></label>
-                <button type="submit" id="submit">Submit</button>
-        
-            </fieldset>
-        </form>
-        <p class="copyright">&copy; Samantha Jarrah</p>
-    </section>
+<!-- Projects -->
+<section>
+    <div class="container">
+        <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Vocabulary Worksheet Generator</h2>
+          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+          <a href="#" class="icon-link">
+            Code Repo
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+          </a>
+        </div>
+        <div class="col-md-5">
+          <img src="./images/vocabulary-worksheet-generator-square.png" height="500">
+        </div>
+      </div>
     </div>
-    <main>
 
-    </main>
+    <div class="container">
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1">Rock, Paper, Scissors Console Game</h2>
+              <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+              <a href="#" class="icon-link">
+                Code Repo
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+              </a>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="./images/rock-paper-scissors-game-square.png" height="500">
+            </div>
+          </div>
+    </div>
+</section>
+
+<!-- Skills/Education -->
+<section>
+
+</section>
+
+<!-- Contact -->
+<section>
+
+</section>
     
+<!-- bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
-
 </html>
