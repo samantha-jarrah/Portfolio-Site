@@ -13,6 +13,6 @@
     border: 1px solid rgba(252, 74, 26, 1);
   }
 
-  .orange-shadow {
-    box-shadow: 10px 10px 15px rgba(252, 74, 26, 0.9);
+  .color-shadow {
+    box-shadow: 10px 10px 15px rgba(74, 189, 172, 1);;
   }
