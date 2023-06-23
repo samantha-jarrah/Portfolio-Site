@@ -7,6 +7,7 @@
 
   .orange {
     background-color: rgba(252, 74, 26, 1);
+    /* color: rgb(255, 255, 255); */
   }
 
   .orange-outline {
@@ -16,3 +17,8 @@
   .color-shadow {
     box-shadow: 10px 10px 15px rgba(74, 189, 172, 1);;
   }
+
+  .text-end {
+    text-align: right;
+  }
+  
